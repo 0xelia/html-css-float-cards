@@ -19,14 +19,50 @@ img {
 
 .debug * {
     border: solid red 3px;
-    padding: 5px;
+    padding: 15px;
 }
 
-.debug div {
-    border: solid blue 2px;
-}
+
+
+
+/*style*/
 
 body {
-    font-family: 'Righteous', Helvetica, sans-serif ;
+    font-family: 'Montserrat', Helvetica, sans-serif ;
     background-color: whitesmoke;
+}
+
+#main-header {
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    color: rgb(255, 2, 120);
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-container > p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card {
+    color: whitesmoke;
+    background-color: #333;
+    float: left;
+    margin: 0 25px 20px 0;
+}
+
+.card-pic {
+    height: 100px;
+    width: 100px;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
