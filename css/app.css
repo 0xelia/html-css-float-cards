@@ -1,0 +1,32 @@
+/*reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* debug*/
+
+.debug * {
+    border: solid red 3px;
+    padding: 5px;
+}
+
+.debug div {
+    border: solid blue 2px;
+}
+
+body {
+    font-family: 'Righteous', Helvetica, sans-serif ;
+    background-color: whitesmoke;
+}
