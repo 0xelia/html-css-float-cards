@@ -17,10 +17,10 @@ img {
 
 /* debug*/
 
-.debug * {
+/* .debug * {
     border: solid red 3px;
     padding: 15px;
-}
+} */
 
 
 
@@ -52,6 +52,7 @@ body {
 .card {
     color: whitesmoke;
     background-color: #333;
+    width: calc( calc(100% - 50px) / 3);
     float: left;
     margin: 0 25px 20px 0;
 }
@@ -59,6 +60,7 @@ body {
 .card-pic {
     height: 100px;
     width: 100px;
+    float: left;
 }
 
 .clearfix::after {
@@ -66,3 +68,9 @@ body {
     display: table;
     clear: both;
 }
+
+
+.card:nth-child(3n) {
+    margin-right: 0;
+}
+
